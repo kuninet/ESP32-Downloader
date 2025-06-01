@@ -9,6 +9,9 @@
 ## 回路図
 [回路図](image/ESP32-Downloder.pdf)
 
+## イメージ
+![alt text](image/image.png)
+
 ## 参考
 * ESP32 Downloader kit
   * https://docs.m5stack.com/ja/accessory/esp32_downloader_kit
