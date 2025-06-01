@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 821)
+    (start_pass_no 768)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -69,8 +69,8 @@
     )
   )
   (class "kicad_default"
-    /EN "Net-(D1-A)" "Net-(D2-A)" /TXD /RXD "Net-(D3-A)" "unconnected-(J1-SBU1-PadA8)" "Net-(U1-UD-)"
-    "unconnected-(J1-SBU2-PadB8)" "Net-(U1-UD+)" "Net-(J1-CC2)" "Net-(J1-CC1)" /GPIO0 "Net-(Q1-G)" "Net-(Q1-S)" "unconnected-(U1-~{CTS}-Pad5)"
+    /EN "Net-(D1-A)" "Net-(D2-A)" /TXD /RXD "Net-(D3-A)" /GPIO0 "Net-(Q1-G)"
+    "Net-(Q1-S)" "unconnected-(U1-~{CTS}-Pad5)" "unconnected-(J1-ID-Pad4)" "Net-(J1-D+)" "Net-(J1-D-)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -81,7 +81,7 @@
     )
   )
   (class BOLD
-    /VBUS GND +3.3V "Net-(F1-Pad1)"
+    /VBUS GND +3.3V "Net-(J1-VBUS)"
     (clearance_class BOLD)
     (via_rule BOLD)
     (rule
